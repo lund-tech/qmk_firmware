@@ -99,7 +99,7 @@
 
 #define RGB_MATRIX_STARTUP_MODE       RGB_MATRIX_GRADIENT_LEFT_RIGHT
 
-#define RGB_MATRIX_HUE_STEP           8
-#define RGB_MATRIX_SAT_STEP           8
-#define RGB_MATRIX_VAL_STEP           8
+#define RGB_MATRIX_HUE_STEP           4
+#define RGB_MATRIX_SAT_STEP           4
+#define RGB_MATRIX_VAL_STEP           4
 #define RGB_MATRIX_SPD_STEP           10
