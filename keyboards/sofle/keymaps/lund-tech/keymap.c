@@ -108,9 +108,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT( \
   _______, XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX,                           XXXXXXX,  XXXXXXX  , XXXXXXX,  XXXXXXX ,  XXXXXXX ,_______, \
   _______,  XXXXXXX,  RGB_HUI,   RGB_SAI,  RGB_VAI, RGB_TOG,                        XXXXXXX, KC_7, KC_8, KC_9, XXXXXXX, _______, \
-  _______, XXXXXXX,  RGB_HUD,  RGB_SAD,  RGB_VAD, XXXXXXX,                       XXXXXXX,  KC_4, KC_5, KC_6,  XXXXXXX, XXXXXXX, \
+  _______, XXXXXXX,  RGB_HUD,  RGB_SAD,  RGB_VAD, XXXXXXX,                       XXXXXXX,  KC_4, KC_5, KC_6,  XXXXXXX, KC_GRV, \
   _______,XXXXXXX, RGB_M_T, RGB_M_X, RGB_M_R, RGB_M_P,  _______,       _______,  XXXXXXX,  KC_1, KC_2, KC_3,   XXXXXXX, _______, \
-                         _______, _______, _______, _______, _______,       _______, _______, XXXXXXX, XXXXXXX, _______ \
+                         _______, _______, _______, _______, _______,       _______, _______, XXXXXXX, XXXXXXX, KC_TILDE \
 ),
 /* ADJUST
  * ,-----------------------------------------.                    ,-----------------------------------------.
